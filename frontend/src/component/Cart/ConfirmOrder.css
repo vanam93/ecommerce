@@ -1,0 +1,124 @@
+.confirmOrderPage{
+    height: 100vh;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 6fr 3fr;
+}
+
+.confirmOrderPage > div:last-child{
+    border-left: 1px solid black;
+}
+
+.confirmShippingArea{
+    padding : 5vmax;
+    padding-bottom: 0%;
+}
+
+.confirmShippingArea>p{
+    font : 400 2vmax "Roboto"
+}
+
+.confirmShippingAreaBox,.confirmCartItemsContainer{
+    margin : 2vmax;
+}
+
+.confirmShippingAreaBox>div{
+    display: flex;
+    margin:1vmax 0;
+}
+
+.confirmShippingAreaBox>div>p{
+    font : 400 1.2vmax "Roboto";
+    color: black;
+}
+.confirmShippingAreaBox>div>p{
+    color: black;
+    margin : 0 1vmax;
+    font: 100 1vmax "Roboto"
+}
+
+.confirmCartItems>p{
+    font : 400 2vmax "Roboto"
+}
+
+.confirmCartItems{
+    padding : 5vmax;
+    padding-top:2vmax;
+}
+
+.confirmCartItemsContainer{
+    max-height: 20vmax;
+    overflow-y: auto;
+}
+
+.confirmCartItemsContainer>div{
+    font : 400 1vmax "Roboto";
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2vmax 0;
+}
+
+.confirmCartItemsContainer>div>img{
+    width: 4vmax;
+    height: 4vmax;
+}
+
+.confirmCartItemsContainer>div>a{
+    width : 60%;
+    margin : 0.3vmax;
+    color: black;
+    text-decoration: none;
+}
+.confirmCartItemsContainer>div>span{
+    font : 100 1vmax "Roboto";
+    color: black;
+}
+
+.orderSummary{
+    padding: 7vmax;
+}
+
+.orderSummary>p{
+    text-align: center;
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+    font : 400 2vmax "Roboto";
+    padding: 1vmax;
+    width: 100%;
+    margin: auto;
+}
+
+.orderSummary>div>div{
+    display: flex;
+    justify-content: space-between;
+    margin: 2vmax 0;
+    font:300 1.2vmax "Roboto";
+}
+
+.orderSummary>div>div>span{
+    color:black
+}
+
+.orderSummaryTotal{
+    display: flex;
+    border-top : 1px solid black;
+    padding : 2vmax 0;
+    font:300 1.2vmax "Roboto";
+    justify-content: space-between;
+}
+
+.orderSummary>button{
+    background-color: tomato;
+    color: white;
+    cursor: pointer;
+    width : 100%;
+    height: 2vmax;
+    transition: all 0.5s;
+    font : 400 1.2vmax Roboto;
+    border: none;
+}
+
+.orderSummary>button:hover{
+    background-color: rgb(255, 119, 95);
+}

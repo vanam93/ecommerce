@@ -1,0 +1,130 @@
+.emptyCart{
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    padding : 10vmax;
+}
+
+.emptyCart>svg{
+    font-size: 5vmax;
+    color: tomato;
+}
+.emptyCart>p{
+    font-size: 2vmax;
+}
+
+.emptyCart>a{
+    background-color: rgb(54, 51, 51);
+    text-decoration: none;
+    color: white;
+    border:none;
+    padding:1vmax 3vmax;
+    cursor: pointer;
+    font:400 1vmax "Roboto";
+}
+
+.cartHeader{
+    background-color: tomato;
+    width: 90%;
+    box-sizing: border-box;
+    grid-template-columns: 4fr 1fr 1fr;
+    display: grid;
+    margin: auto;
+    color: white;
+    font:300 1vmax "Roboto";
+}
+.cartPage{
+    padding: 5vmax;
+}
+.cartHeader>p{
+    margin: 10px;
+}
+
+.cartHeader>p:last-child{
+    text-align: end;
+}
+
+.cartContainer{
+    width: 90%;
+    margin : auto;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr;
+}
+
+.cartInput{
+    display: flex;
+    align-items: center;
+    margin-left: 1vmax;;
+    height: 8vmax;
+}
+
+.cartInput>button{
+    border: none;
+    background-color: rgba(0,0,0,0.616);
+    color: white;
+    transition: all 0.5s;
+    cursor: pointer;
+    padding: 0.5vmax;
+}
+
+.cartInput>button:hover{
+    background-color: rgba(0,0,0,0.767);
+}
+
+.cartInput>input{
+    border: none;
+    width: 2vmax;
+    padding : 0.5vmax;
+    font:400 1vmax "Roboto";
+    color: rgba(0,0,0,0.74);
+    outline: none;
+    text-align: center;
+}
+
+.cartSubtotal{
+    display:flex;
+    padding:0.5vmax;
+    font:300 1vmax cursive;
+    justify-content: flex-end;
+    color:black;
+    box-sizing: border-box;
+    align-items: center;
+    height: 8vmax;
+}
+
+.cartItemsTotal{
+    display: grid;
+    grid-template-columns: 2fr 1.2fr;
+}
+
+.cartItemsTotalBox{
+    border-top: 3px solid tomato;
+    box-sizing: border-box;
+    margin:1vmax 4vmax;
+    justify-content: space-between;
+    display: flex;
+    padding:2vmax 0;
+    font:300 1vmax "Roboto"
+}
+
+.checkOutBtn{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.checkOutBtn>button{
+    border: none;
+    background-color: tomato;
+    color: white;
+    padding: 0.8vmax 4vmax;
+    width : 50%;
+    font:300 0.8vmax "Roboto";
+    margin:1vmax 4vmax;
+    cursor:pointer;
+    border-radius: 30px;
+}

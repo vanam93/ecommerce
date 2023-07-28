@@ -1,0 +1,33 @@
+.cartItemCard{
+    display: flex;
+    padding: 1vmax;
+    height: 8vmax;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+
+.cartItemCard>img{
+    width: 5vmax;
+}
+
+.cartItemCard>div{
+    display: flex;
+    margin: 0.3vmax 1vmax;flex-direction: column;
+}
+
+.cartItemCard>div>a{
+    font : 300 1vmax cursive;
+    color: black;
+    text-decoration: none;
+}
+
+.cartItemCard>div>span{
+    font : 300 0.9vmax "Roboto";
+    color: black;
+}
+
+.cartItemCard>div>p{
+    cursor: pointer;
+    color:tomato;
+    font : 100 0.8vmax "Roboto"
+}

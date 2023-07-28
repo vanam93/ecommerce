@@ -1,0 +1,107 @@
+.productsHeading{
+    margin : 2vmax auto;
+    padding:2vmax;
+    border-bottom:1px solid black;
+    width : 15vw;
+    text-align : center;
+    font : 500 2vmax "Roboto"
+}
+.products{
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding : 0 5vmax;
+    min-height: 30vh;
+}
+
+.paginationBox{
+    display: flex;
+    justify-content: center;
+    margin:6vmax
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    padding : 0
+}
+
+.page-item{
+    background-color: white;
+    list-style: none;
+    padding: 1vmax 1.5vmax;
+    cursor:pointer;
+    border : 1px solid black;
+}
+
+.page-item:first-child{
+    border-radius: 5px 0 0 5px;
+}
+.page-item:last-child{
+    border-radius: 0 5px 5px 0;
+}
+
+.page-link{
+    text-decoration: none;
+    font: 300 0.8vmax "Roboto";
+    color : black;
+    transition: all 0.3s;
+}
+
+.page-item:hover {
+    background-color: rgb(132, 132, 132);
+}
+
+.page-item:hover .page-link{
+    color : rgb(255, 70, 70)
+}
+
+.pageItemActive{
+    background-color: tomato;
+}
+
+.pageLinkActive{
+    color : white
+}
+
+.filterBox{
+    width:10vmax;
+    position: absolute;
+    top:10vmax;
+    left:4vmax
+}
+
+.categoryBox {
+    padding: 0;
+}
+
+.categoryLink{
+    list-style: none;
+    font : 400 1vmax "Roboto";
+    margin : 0.4vmax;
+    cursor : pointer;
+    transition: all 0.5s;
+}
+
+.categoryLink:hover{
+    color: tomato;
+}
+
+.filterBox > fieldset{
+    border : 1px solid black;
+    width : 90%
+}
+
+@media screen and (max-width : 600px) {
+    .filterBox{
+        width: 20vmax;
+        position: static;
+        margin: auto;
+    }
+    .page-link{
+        font : 300 1.7vmax "Roboto"
+    }
+    .categoryLink{
+        font : 400 1.8vmax "Rooto"
+    }
+}
